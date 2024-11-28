@@ -113,6 +113,10 @@
     display: none;
 }
 
+.show{
+    display: block;
+}
+
 /* Тут не написано "screen and ...", потому что так тоже допускается, пока */
 @media (max-width: 768px) {
     .timer__inputs {
