@@ -53,6 +53,10 @@ function stopTimer(){
     setTimeout(() => {
         document.exitFullscreen();
     }, 1000);
+
+    setTimeout(() => {
+        stop.style.opacity = 0.1;
+    }, 500);
     
 
     clearInterval(interval);
